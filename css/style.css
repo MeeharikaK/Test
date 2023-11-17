@@ -1,0 +1,126 @@
+body{
+    background-color: #B8FAED;
+    margin: 0;
+}
+.main{
+    margin: 5% 15% 5% 15%;
+    display: flex;
+}
+
+.profilepic{
+    float: left;
+    width: 140%;
+    height: 10px;
+}
+#profilepic:hover{
+    transform: scale(1.2);
+}
+#profile-desc{
+    line-height: 1.5;
+}
+#profilepic{
+    height: 550px;
+    width: 95%;
+    border-radius: 20px;
+    transition: transform .2s; 
+}
+
+.contact{
+    text-align: center;
+    color: rgb(6, 124, 6);
+}
+
+.contact p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 58px;
+    color: rgb(6, 124, 6);
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.contact a{
+    display: block;
+    color: rgb(6, 124, 6);
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+footer{
+    width: 100%;
+    display: flex;
+}
+.imgsalesproject{
+    height: 4;
+    width: 4;
+}
+#self{
+    height: 200px;
+    width: 200px;
+}
+
+.imgtestscoreproject{
+    height: 5;
+    width: 5;
+}
+
+.imgsurveyproject{
+    height: 3;
+    width: 3;
+}
+
+.imgalienproject{
+    height: 3;
+    width: 3;
+}
+
+.roles{
+text-align: center;
+}
+
+.projectdetails,projectname{
+    color:  green;
+}
+.projects{
+    display: flex;
+    width: 100%;
+    background-color: #E2FFFF;
+}
+.project-name{
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projectdescription{
+    color: rgb(6, 124, 6);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.projects-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.projectimg{
+    transition: transform .2s; 
+}
+
+.projectimg:hover{
+    transform: scale(1.2);
+}
+.social{
+    width: 100%;
+    background-color: #E2FFFF;
+    text-align: center;
+    padding: 20px 0;
+}
